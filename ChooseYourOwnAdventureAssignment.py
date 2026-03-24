@@ -7,7 +7,12 @@ scene = story["start_scene"]
 while True:
     print(f"\n{scene["text"]}")
     if not scene["options"]:
-        break
+        userInput = input("\nPlay again? (yes/no): ").strip().lower()
+        if userInput == "yes":
+            scene = story["start_scene"]
+            continue
+        else:
+            break
     print("\nOptions: ")
     for option in scene["options"]:
         print(f"- {option.capitalize()}")
