@@ -8,7 +8,7 @@ while True:
     print(f"\n{scene["text"]}")
     if not scene["options"]:
         userInput = input("\nPlay again? (yes/no): ").strip().lower()
-        if userInput == "yes":
+        if userInput in ["yes", "y"]:
             scene = story["start_scene"]
             continue
         else:
