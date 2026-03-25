@@ -1,18 +1,18 @@
 {
-    "start_scene": {
+    "startScene": {
         "text": "You are in a forest you do not recognize. You see two paths.",
         "options": {
-            "right": "right_path",
-            "left": "left_path"
+            "right": "rightPath",
+            "left": "leftPath"
         }
     },
-    "right_path": {
+    "rightPath": {
         "text": "You see nothing but trees.",
         "options": {
-            "back": "start_scene"
+            "back": "startScene"
         }
     },
-    "left_path": {
+    "leftPath": {
         "text": "You see a house in the distance.",
         "options": {}
     }

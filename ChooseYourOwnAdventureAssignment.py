@@ -3,13 +3,13 @@ import json
 with open("story.json") as file:
     story = json.load(file)
 
-scene = story["start_scene"]
+scene = story["startScene"]
 while True:
     print(f"\n{scene["text"]}")
     if not scene["options"]:
         userInput = input("\nPlay again? (yes/no): ").strip().lower()
         if userInput in ["yes", "y"]:
-            scene = story["start_scene"]
+            scene = story["startScene"]
             continue
         else:
             break
