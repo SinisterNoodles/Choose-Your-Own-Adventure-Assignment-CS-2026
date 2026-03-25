@@ -1,4 +1,4 @@
-{
+story = {
     "startScene": {
         "text": "You are in a forest you do not recognize. You see two paths.",
         "options": {

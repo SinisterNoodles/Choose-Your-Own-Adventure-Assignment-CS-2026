@@ -1,7 +1,4 @@
-import json
-
-with open("story.json") as file:
-    story = json.load(file)
+from story import story
 
 scene = story["startScene"]
 while True:
