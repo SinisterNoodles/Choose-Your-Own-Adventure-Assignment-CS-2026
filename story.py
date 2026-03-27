@@ -1,5 +1,6 @@
 story = {
     "startScene": {
+        "art": "title",
         "text": "You are in a forest you do not recognize. You see two paths.",
         "options": {
             "right": "rightPath",
@@ -7,6 +8,7 @@ story = {
         }
     },
     "rightPath": {
+        "art": "forest",
         "text": "You see nothing but trees.",
         "options": {
             "back": "startScene"

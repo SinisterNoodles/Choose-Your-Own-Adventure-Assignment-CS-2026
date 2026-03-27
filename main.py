@@ -1,7 +1,11 @@
 from story import story
+from asciiArt import asciiArt
 
 scene = story["startScene"]
 while True:
+    art = scene.get("art")
+    if art is not None:
+        print(f"\n{asciiArt[art]}")
     print(f"\n{scene["text"]}")
     if not scene["options"]:
         userInput = input("\nPlay again? (yes/no): ").strip().lower()
