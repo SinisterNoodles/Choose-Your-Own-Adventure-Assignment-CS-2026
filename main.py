@@ -1,7 +1,9 @@
-# Chiano Arcari
-# Anurag Nagra
-# Computer Sciences ICS3U
-# March 31, 2026
+"""
+Chiano Arcari
+Anurag Nagra
+Computer Sciences ICS3U
+March 31, 2026
+"""
 
 from story import story
 from story import title
