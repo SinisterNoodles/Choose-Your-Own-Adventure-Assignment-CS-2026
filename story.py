@@ -41,13 +41,13 @@ it gets too hot, and remember to walk carefully. Don’t stray from the path, or
 '''\033[1m“Where are you going so early?”\033[0m he asked.''',
 '''\033[1m“To my grandmother’s house,”\033[0m said the girl.''',
 '''\033[1m“And what’s that in your basket?”\033[0m''',
-'''\033[1m“Cake and wine. Grandma’s been sick, so Mother sent me to cheer her up.”\033[0m''',
+'''\033[1m“Cake and wine. \033[34mGrandma\033[39m’s been sick, so Mother sent me to cheer her up.”\033[0m''',
 '''\033[1m“And where does your grandmother live?”\033[0m asked the wolf.''',
 '''\033[1m“A little farther into the woods—under the three great oak trees, near the hazel bushes. You must know it,”\033[0m she said.''',
 '''The wolf licked his lips and thought, What a tender young thing! She’ll taste even better than the old woman. I’ll eat them both—but I’ll have to be clever about it.''',
 '''He walked beside her for a bit, then said slyly, \033[1m“Look how pretty the flowers are here, \033[31mLittle Red Riding Hood\033[39m. Why not pick some for your grandmother? And listen—don’t you
 hear how sweetly the birds are singing? You walk along so seriously, as if you were going to school, when the forest is alive with joy!”\033[0m''',
-'''\033[31mLittle Red Riding Hood\033[39m looked up and saw sunlight dancing through the trees, making the wildflowers sparkle. Grandma would love a bouquet, she thought. I still have plenty of time.
+'''\033[31mLittle Red Riding Hood\033[39m looked up and saw sunlight dancing through the trees, making the wildflowers sparkle. \033[34mGrandma\033[39m would love a bouquet, she thought. I still have plenty of time.
 So she stepped off the path to gather flowers. Each time she picked one, she saw another even prettier farther away, and she wandered deeper and deeper into the forest.''',
 '''Meanwhile, the wolf ran straight to the grandmother’s house and knocked at the door.''',
 '''\033[1m“Who’s there?”\033[0m called the grandmother.''',
@@ -85,15 +85,15 @@ on the windows, plotting how to get in.''',
 Then he put on her nightgown and cap, pulled the curtains, and lay down in her bed.''',
 '''When \033[31mLittle Red Riding Hood\033[39m finally reached the cottage, she was surprised to find the door standing open. The room felt
 strange and quiet. \033[1m“Oh dear,”\033[0m she whispered, \033[1m“why do I feel so uneasy today?”\033[0m She called out, \033[1m“Good
-morning, Grandma!”\033[0m but there was no answer.''',
+morning, \033[34mGrandma\033[39m!”\033[0m but there was no answer.''',
 '''She went to the bed and drew back the curtains. There lay her grandmother, cap pulled low, face shadowed, looking quite odd.''',
-'''\033[1m“Oh, Grandma, what big ears you have!”\033[0m''',
+'''\033[1m“Oh, \033[34mGrandma\033[39m, what big ears you have!”\033[0m''',
 '''\033[1m“The better to hear you with, my child,”\033[0m came the growling reply.''',
-'''\033[1m“But, Grandma, what big eyes you have!”\033[0m''',
+'''\033[1m“But, \033[34mGrandma\033[39m, what big eyes you have!”\033[0m''',
 '''\033[1m“The better to see you with, my dear.”\033[0m''',
 '''\033[1m“And what big hands you have!”\033[0m''',
 '''\033[1m“The better to hug you with.”\033[0m''',
-'''\033[1m“But, Grandma—what a terrible big mouth you have!”\033[0m'''
+'''\033[1m“But, \033[34mGrandma\033[39m—what a terrible big mouth you have!”\033[0m'''
         ),
         "options": {
             "run from grandma":"runFromGrandma",
@@ -105,7 +105,7 @@ morning, Grandma!”\033[0m but there was no answer.''',
 '''\033[1m“No!”\033[0m she snapped. \033[1m“You will not come in, wolf!”\033[0m''',
 '''The wolf snarled and slunk into a thick bush near the cottage, waiting and watching for \033[31mLittle Red Riding Hood\033[39m.''',
 '''When \033[31mLittle Red Riding Hood\033[39m arrived, her grandmother called from the doorway, \033[1m“Come in, my dear!”\033[0m''',
-'''As the door swung open, the wolf leapt from the bush, crashing toward the door with a terrifying growl. Grandma quickly
+'''As the door swung open, the wolf leapt from the bush, crashing toward the door with a terrifying growl. \033[34mGrandma\033[39m quickly
 stepped aside, pulling \033[31mLittle Red Riding Hood\033[39m in just in time.''',
 '''The wolf, too fast to be stopped, smashed through a nearby window, shards of glass scattering across the floor, and
 clambered into the room, eyes fixed on the girl.''',
@@ -120,7 +120,7 @@ clambered into the room, eyes fixed on the girl.''',
         "text": (
 '''\033[31mLittle Red Riding Hood\033[39m’s eyes fell on a hunting rifle propped in the corner, left by her grandfather.''',
 '''Her hands trembled as she lifted it, the weight both comforting and terrifying.''',
-'''\033[1m“I have to stop him… I have to save Grandma,”\033[0m she whispered to herself.''',
+'''\033[1m“I have to stop him… I have to save \033[34mGrandma\033[39m,”\033[0m she whispered to herself.''',
 '''Outside, the wolf circled the cottage, his ears twitching, unaware of her new weapon.''',
 '''She aimed through the window, trying to steady her breath, each heartbeat pounding in her ears.''',
 '''But as she fumbled with the gun, trying to load it, a cold realization struck—she had lost precious time.''',
@@ -186,20 +186,20 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
     },
     "hugGrandma": {
         "text": (
-'''But instead of screaming, \033[31mLittle Red Riding Hood\033[39m rushed past the wolf and threw her arms around her grandmother. \033[1m“Oh, Grandma, I was so frightened!”\033[0m she cried, hugging her tightly.''',
+'''But instead of screaming, \033[31mLittle Red Riding Hood\033[39m rushed past the wolf and threw her arms around her grandmother. \033[1m“Oh, \033[34mGrandma\033[39m, I was so frightened!”\033[0m she cried, hugging her tightly.''',
 '''The wolf halted mid-step. The sight of the embrace stirred a memory long buried: a small wolf pup nuzzling against its own mother in a quiet den, safe and warm.''',
 '''\033[1m“I… I remember,”\033[0m the wolf muttered, its growl fading into a whisper as the flashback passed through its mind.''',
-'''Grandma peered over \033[31mLittle Red Riding Hood\033[39m’s shoulder as the wolf lowered its head. \033[1m“I am sorry for the fright I caused you both,”\033[0m the wolf said softly.''',
+'''\033[34mGrandma\033[39m peered over \033[31mLittle Red Riding Hood\033[39m’s shoulder as the wolf lowered its head. \033[1m“I am sorry for the fright I caused you both,”\033[0m the wolf said softly.''',
 '''\033[31mLittle Red Riding Hood\033[39m turned, surprised by the change in the creature’s voice. \033[1m“Then you may stay, if you promise no more trouble,”\033[0m she replied cautiously.''',
 '''The wolf nodded and, before anything else, carefully gathered wood and tools from outside. With patient effort, it repaired the broken window, fitting the frame back into place and sweeping away the glass.''',
-'''As evening fell, Grandma set the table for three. The wolf sat politely by the hearth while a warm meal was prepared.''',
+'''As evening fell, \033[34mGrandma\033[39m set the table for three. The wolf sat politely by the hearth while a warm meal was prepared.''',
 '''That night, the cottage was filled not with growls or fear, but with quiet conversation as they shared dinner together in unexpected peace.'''
         ),
         "options": {}
     },
     "runWithGrandma": {
         "text": (
-'''\033[31mLittle Red Riding Hood\033[39m screamed, \033[1m“Grandma, run!”\033[0m, and together they bolted from the cottage, feet pounding the earth as the wolf gave chase.''',
+'''\033[31mLittle Red Riding Hood\033[39m screamed, \033[1m“\033[34mGrandma\033[39m, run!”\033[0m, and together they bolted from the cottage, feet pounding the earth as the wolf gave chase.''',
 '''Branches whipped at their faces and the forest echoed with the predator’s snarls.''',
 '''For a fleeting moment, they thought they might escape, but the wolf’s speed was terrifying, and it lunged with a ferocious leap, catching \033[31mLittle Red Riding Hood\033[39m before she could reach safety.''',
 '''Grandmother stumbled to a halt, horror freezing her in place. But in that instant, her fear transformed into searing rage.''',
@@ -207,7 +207,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''The forest was silent but for the heavy panting of Grandmother, her body trembling as she surveyed the carnage. The ground and her home were drenched in the aftermath, a grotesque tableau of blood and torn fur.''',
 '''With trembling hands and a steadying breath, Grandmother gathered \033[31mLittle Red Riding Hood\033[39m, who was unharmed, though shaken. Together, they worked in grim determination, cleaning every trace of the horrific attack from the cottage.''',
 '''Hours passed, and with each sweep of the broom and wipe of the cloth, their bond strengthened, the terror giving way to relief and unity.''',
-'''Finally, as the sun set, they sat side by side, the cottage spotless and the memory of the wolf a vanquished nightmare. \033[31mLittle Red Riding Hood\033[39m leaned on her grandmother, whispering, \033[1m“Thank you, Grandma. I knew you’d save me.”\033[0m''',
+'''Finally, as the sun set, they sat side by side, the cottage spotless and the memory of the wolf a vanquished nightmare. \033[31mLittle Red Riding Hood\033[39m leaned on her grandmother, whispering, \033[1m“Thank you, \033[34mGrandma\033[39m. I knew you’d save me.”\033[0m''',
 '''Grandmother smiled faintly, a mix of exhaustion and pride in her eyes. \033[1m“We protect each other, always,”\033[0m she said. And in that moment, they both knew they were stronger together, living happily ever after.'''
         ),
         "options": {}
@@ -226,7 +226,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''The wolf’s head jerked violently, a sharp cry echoing before silence fell. Blood spattered the floor, and the creature slumped back, motionless.''',
 '''Breathing hard, \033[31mLittle Red Riding Hood\033[39m approached, her hands shaking but resolute. She skinned the wolf with careful precision, the memory of her grandmother’s fear fueling her.''',
 '''Finally, she swung open the door to the bedroom, where her grandmother, miraculously alive under a heavy blanket, blinked in shock and relief.''',
-'''\033[1m“Grandma! You’re safe!”\033[0m \033[31mLittle Red Riding Hood\033[39m exclaimed, tears mixing with sweat.''',
+'''\033[1m“\033[34mGrandma\033[39m! You’re safe!”\033[0m \033[31mLittle Red Riding Hood\033[39m exclaimed, tears mixing with sweat.''',
 '''Her grandmother hugged her tightly, whispering words of gratitude and relief, both knowing they had survived the nightmare.''',
 '''Outside, the forest was silent, the threat extinguished, and \033[31mLittle Red Riding Hood\033[39m and her grandmother finally shared a moment of peace, the cottage warm and safe once more.'''
         ),
@@ -241,7 +241,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''In an instant, the wolf’s jaws clamped around her, and darkness swallowed her whole.''',
 '''Inside the wolf’s cavernous belly, the smell was overwhelming, the walls slick and suffocating.''',
 '''\033[1m“Little Red,”\033[0m a familiar voice called. It was her grandmother, calm despite the chaos.''',
-'''\033[1m“You’re stronger than you know,”\033[0m Grandma said, pressing against the wolf’s stomach. \033[1m“Focus! Together, we can get out!”\033[0m''',
+'''\033[1m“You’re stronger than you know,”\033[0m \033[34mGrandma\033[39m said, pressing against the wolf’s stomach. \033[1m“Focus! Together, we can get out!”\033[0m''',
 '''\033[31mLittle Red Riding Hood\033[39m felt a surge of courage, joining her grandmother’s efforts, their hands pressing as hard as they could.''',
 '''The wolf howled, twisting in agony as their combined strength strained the impossible.''',
 '''\033[1m“Now! With everything we’ve got!”\033[0m her grandmother shouted.''',
@@ -250,7 +250,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''\033[1m“We did it,”\033[0m Little Red whispered, the adrenaline leaving her voice shaking but triumphant.''',
 '''Her grandmother hugged her tightly, smiling, and for the first time in hours, relief washed over them both.''',
 '''From that day on, \033[31mLittle Red Riding Hood\033[39m and her grandmother lived safely, wiser and braver, in a cottage where the forest’s dangers could never reach them again.''',
-'''\033[1m“Happiness isn’t about avoiding the wolves,”\033[0m Grandma said, \033[1m“it’s about facing them—and surviving.”\033[0m'''
+'''\033[1m“Happiness isn’t about avoiding the wolves,”\033[0m \033[34mGrandma\033[39m said, \033[1m“it’s about facing them—and surviving.”\033[0m'''
         ),
         "options": {}
     },
@@ -263,7 +263,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''In an instant, the wolf’s jaws clamped around her, and darkness swallowed her whole.''',
 '''Inside the wolf’s cavernous belly, the smell was overwhelming, the walls slick and suffocating.''',
 '''\033[1m“Little Red,”\033[0m a familiar voice called. It was her grandmother, calm despite the chaos.''',
-'''\033[1m“You’re stronger than you know,”\033[0m Grandma said, pressing against the wolf’s stomach. \033[1m“Focus! Together, we can get out!”\033[0m''',
+'''\033[1m“You’re stronger than you know,”\033[0m \033[34mGrandma\033[39m said, pressing against the wolf’s stomach. \033[1m“Focus! Together, we can get out!”\033[0m''',
 '''\033[31mLittle Red Riding Hood\033[39m felt a surge of courage, joining her grandmother’s efforts, their hands pressing as hard as they could.''',
 '''The wolf howled, twisting in agony as their combined strength strained the impossible.''',
 '''\033[1m“Now! With everything we’ve got!”\033[0m her grandmother shouted.''',
@@ -272,7 +272,7 @@ As for \033[31mLittle Red Riding Hood\033[39m, she thought to herself, \033[1m*F
 '''\033[1m“We did it,”\033[0m Little Red whispered, the adrenaline leaving her voice shaking but triumphant.''',
 '''Her grandmother hugged her tightly, smiling, and for the first time in hours, relief washed over them both.''',
 '''From that day on, \033[31mLittle Red Riding Hood\033[39m and her grandmother lived safely, wiser and braver, in a cottage where the forest’s dangers could never reach them again.''',
-'''\033[1m“Happiness isn’t about avoiding the wolves,”\033[0m Grandma said, \033[1m“it’s about facing them—and surviving.”\033[0m'''
+'''\033[1m“Happiness isn’t about avoiding the wolves,”\033[0m \033[34mGrandma\033[39m said, \033[1m“it’s about facing them—and surviving.”\033[0m'''
         ),
         "options": {}
     },
