@@ -1,12 +1,15 @@
 from story import story
 from asciiArt import asciiArt
+import textwrap, time
 
 scene = story["startScene"]
 while True:
     art = scene.get("art")
     if art is not None:
         print(f"\n{asciiArt[art]}")
-    print(f"\n{scene["text"]}")
+    for lineOfText in scene["text"]:
+        print(f"\n{textwrap.fill(lineOfText, 80)}")
+        time.sleep(1)
     if not scene["options"]:
         userInput = input("\nPlay again? (yes/no): ").strip().lower()
         if userInput in ["yes", "y"]:
