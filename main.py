@@ -4,10 +4,8 @@ import textwrap, time
 
 print(f"\n{title}") # Print the title of the story at the start
 scene = story["startScene"] # Set the starting scene to the first scene
-
 while True: # Loop to keep the story running
     for lineOfText in scene["text"]:
-
         print(f"\n{textwrap.fill(lineOfText, 80)}") # Wrap the text to 80 characters per line for better readability
         time.sleep(1) # Delay for added effect
     if not scene["options"]:
