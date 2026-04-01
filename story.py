@@ -157,7 +157,7 @@ clambered into the room, eyes fixed on the girl.''',
             "go back home":"goBackHome"
         }
     },
-    "runFromGrandmother": {
+    "runFromGrandma": {
         "text": (
 '''\033[31mLittle Red Riding Hood\033[39m screamed and leapt away from the bed just as the wolf snapped his jaws where she had stood. She darted across the room, her heart pounding, and ran toward the window as the wolf scrambled after her.''',
 '''In her panic, she fumbled with the latch and shoved the window open. Cold air rushed in. She began to climb out, thinking only to escape into the forest below.''',
