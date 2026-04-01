@@ -3,6 +3,9 @@ Chiano Arcari
 Anurag Nagra
 Computer Sciences ICS3U
 March 31, 2026
+
+This is a reimagining of the fabled story of "Little Red Riding hood" where the user
+gets to choose the choices the characters make.
 """
 
 from story import story
